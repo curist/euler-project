@@ -9,11 +9,11 @@ Simply run
 
 Will open port 4000 for incoming connections, and give the answer for given question number.
 
-All problem solve scripts are named as: ['euler' + ProblemNumer + '.js']
+All problem solve scripts are named as: ['euler' + ProblemNumer + '.js']  
 They are exported as nodejs module, and should have a method called 'answer'.
 
 Inatallation
 ========================
 
     sudo apt-get install libgmp3-dev
-    npm install -g underscore underscore.string bigint
+    npm install -g nodemon underscore underscore.string bigint
