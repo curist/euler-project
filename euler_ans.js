@@ -20,7 +20,7 @@ net.createServer(function(socket) {
       try {
         socket.write('Hold on a sec...\n');
         var start = (new Date).getTime();
-        var euler = require('euler' + num);
+        var euler = require('solved/euler' + num);
         var ans = euler.answer();
         var elapsed = (new Date).getTime() - start;
         socket.write('The answer for euler ' + num + ' is ' + ans);
